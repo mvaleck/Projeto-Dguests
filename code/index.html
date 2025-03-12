@@ -7,19 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="login">
         <H3>Login</H3>
         <div class="campo">
             <label for="email">E-mail</label>
             <input type="email" name="email" id="email" required>
+            <p id="emailError" class="erro"></p> <!-- Aqui será exibida a mensagem de erro -->
         </div>
         
         <div class="campo">
             <label for="password">Senha</label>
             <input type="password" name="senha" id="senha" required>
+            <p id="senhaError" class="erro"></p> <!-- Aqui será exibida a mensagem de erro -->
         </div>
 
-        <button>ENTRAR</button>
+        <button id="entrarBtn">ENTRAR</button>
 
 
     </div>
