@@ -1,0 +1,51 @@
+body {
+margin: 0; /* para ocupar a largura da tela*/
+padding: 0; /* */
+
+}
+
+.menu {
+    background-color: rgb(166, 197, 197);
+    display: flex; /* ativa o flexblox */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    justify-content: center; /* centraliza os itens do menu */
+
+
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;  /* Deixa os itens distribuídos */
+    align-items: center;
+    margin: 20px;
+    padding: 0px;
+    width: 80%; /* Faz com que o menu ocupe 80% da largura da tela */
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+
+}
+
+
+img {
+    width: 70px;
+}
+
+/* Adiciona uma margem superior para empurrar o conteúdo para baixo */
+.conteudo {
+    margin-top: 150px; /* Ajuste o valor conforme a altura do seu menu */
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+
+} 
+
