@@ -31,14 +31,14 @@ img {
 
 /* Adiciona uma margem superior para empurrar o conteúdo para baixo */
 .conteudo {
-    margin-top: 150px; /* Ajuste o valor conforme a altura do seu menu */
+    margin-top: 130px; /* Ajuste o valor conforme a altura do seu menu */
 }
 
 .pesquisa {
+    visibility: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(193, 193, 207, 0.596); /*tirar essa cor depois*/
 } 
 
 input {
