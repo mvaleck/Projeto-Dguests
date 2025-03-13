@@ -15,7 +15,7 @@ padding: 0; /* */
 .menu ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;  /* Deixa os itens distribuídos */
+    justify-content: space-between;  /* Deixa os itens distribuídos no menu (um no canto, meio e canto)*/
     align-items: center;
     margin: 20px;
     padding: 0px;
@@ -46,7 +46,13 @@ input {
     width: 50%;
 }
 
-button {
+#botaoBuscar {
     padding: 15px;
     cursor: pointer;
+}
+
+.botaoMenu {
+    cursor: pointer;
+    background-color: rgb(166, 197, 197);
+    border-style: none;
 }
