@@ -57,3 +57,21 @@ input {
     border-style: none;
 }
 
+.receitas {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens "quebrem" e fiquem em várias linhas */
+    justify-content: space-between; /* Espaçamento entre as imagens */
+    gap: 20px; /* Espaçamento entre as imagens */
+    padding: 8px;
+}
+
+.individual {
+    width: 30%; /* Cada item ocupa 30% da largura da linha. pode ser px ou % */
+    text-align: center; /* Centraliza o texto abaixo das imagens */
+}
+
+.individual img {
+    width: 90%; /* a imagem ocupa x% do item que ela está inserida (o .individual)*/
+    height: auto; /* Mantém a proporção da imagem */
+}
+
