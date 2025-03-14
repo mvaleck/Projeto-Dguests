@@ -25,7 +25,7 @@ padding: 0; /* */
 }
 
 
-img {
+.imgMenu {
     width: 70px;
 }
 
@@ -56,3 +56,4 @@ input {
     background-color: rgb(166, 197, 197);
     border-style: none;
 }
+
