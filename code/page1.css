@@ -68,6 +68,7 @@ input {
 .individual {
     width: 30%; /* Cada item ocupa 30% da largura da linha. pode ser px ou % */
     text-align: center; /* Centraliza o texto abaixo das imagens */
+    cursor: pointer;
 }
 
 .individual img {
@@ -124,11 +125,12 @@ input {
 
 .modal-conteudo {
     background: white;
-    padding: 20px;
+    padding: 80px;
     width: 50%;
     border-radius: 20px;
     text-align: center;
     position: relative;
+    font-size: 25px;
 }
 
 .fechar{
