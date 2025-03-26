@@ -169,7 +169,18 @@ document.addEventListener("DOMContentLoaded", function () {
             window.location.href = "page1.html";
         });
     }
+
+    var botaoPerfil = document.getElementById('botaoPerfil')
+    if (botaoPerfil) {
+        botaoPerfil.addEventListener('click', function () {
+            window.location.href = 'perfil.html'
+//quero mudar a cor do menu quando clicar aqui, depoisss 
+        });
+    }
+
+
 });
+
  
 
 

@@ -70,5 +70,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         alert("Login realizado com sucesso!");
+        window.location.href = 'page1.html'
     });
 });
