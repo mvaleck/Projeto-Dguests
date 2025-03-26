@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Receitas</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><button id="botaoPerfil" class="botaoMenu"><img class="imgMenu" src="iconPERFIL.png" alt=""></button></li>
+                <li><button id="botaoVai" class="botaoVaiVolta" >Foods</button></li>
+                <li><button id="botaoLupa" class="botaoMenu"><img class="imgMenu" src="iconLUPA.png" alt=""></button></li>           
+            </ul>
+           </nav>
+    </header>
+
+   <div class="conteudo">
+    
+    <div class="pesquisa">
+        <input type="text" placeholder="Buscar receita..."> <!-- ATRIBUTO placeholder que permite colocar texto dentro do input -->
+        <button id="botaoBuscar" type="submit">ok</button>
+    </div>
+
+    <div id="mensagemNaoEncontrada" style="display: none; color: red; text-align: center;"></div> <!-- Div para a mensagem -->
+    
+    <div class="receitas">
+
+        <div class="individual">
+            <img src="panqueca.jpg" alt="">
+            <h3>Panqueca</h3>
+        </div>
+
+        <div class="individual">
+            <img src="geleias.jpg" alt="">
+            <h3>Geleia de Frutas</h3>
+        </div>
+
+        <div class="individual">
+            <img src="paodequeijo.png" alt="">
+            <h3>Pão de Queijo</h3>
+        </div>
+
+        <div class="individual">
+            <img src="bolonhesa.jpg" alt="">
+            <h3>Macarrão à Bolonhesa</h3>
+        </div>
+
+        <div class="individual">
+            <img src="risoto.jpg" alt="">
+            <h3>Risoto de Camarão</h3>
+        </div>
+
+        <div class="individual">
+            <img src="lasanha.jpg" alt="">
+            <h3>Lasanha</h3>
+        </div>
+
+        <div class="individual">
+            <img src="carnedepanela.png" alt="">
+            <h3>Carne de Panela</h3>
+        </div>
+
+        <div class="individual">
+            <img src="feijoada.png" alt="">
+            <h3>Feijoada</h3>
+        </div>
+
+        <div class="individual">
+            <img src="file.jpg" alt="">
+            <h3>Filé ao Molho Madeira</h3>
+        </div>
+
+        <div class="individual">
+            <img src="tartare.jpg" alt="">
+            <h3>Tartare</h3>
+        </div>
+
+        <div class="individual">
+            <img src="hamburguer.jpg" alt="">
+            <h3>Hambúrguer</h3>
+        </div>
+
+        <div class="individual">
+            <img src="ceaser.jpg" alt="">
+            <h3>Salada Ceaser</h3>
+        </div>
+
+        <div class="individual">
+            <img src="pizza.jpg" alt="">
+            <h3>Pizza</h3>
+        </div>
+
+        <div class="individual">
+            <img src="guacamole.jpg" alt="">
+            <h3>Guacamole</h3>
+        </div>
+
+        <div class="individual">
+            <img src="brownie.jpg" alt="">
+            <h3>Brownie</h3>
+        </div>
+
+
+    </div>
+
+<!-- Modal de Receita -->
+<div id="modal" class="modal">
+    <div class="modal-conteudo">
+        <button class="fechar">Fechar</button> <!-- Botão de fechar -->
+        <h2 id="modal-titulo">Título da Receita</h2>
+        <p id="modal-descricao">Aqui vai a descrição da receita...</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </div>
+
+
+   
+
+<footer>Criado por Milena Valeck</footer>
+
+   <script src="script2.js"></script>
+
+</body>
+</html>

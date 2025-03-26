@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebidas</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+    
+
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><button id="botaoPerfil" class="botaoMenu"><img class="imgMenu" src="iconPERFIL.png" alt=""></button></li>
+                <li> <button id="botaoVolta" class="botaoVaiVolta">Drinks</button></li>
+                <li><button id="botaoLupa" class="botaoMenu"><img class="imgMenu" src="iconLUPA.png" alt=""></button></li>            </ul>
+           </nav>
+    </header>
+
+   <div class="conteudo">
+
+    <div class="pesquisa">
+        <input type="text" placeholder="Buscar bebida..."> <!-- ATRIBUTO placeholder que permite colocar texto dentro do input -->
+        <button id="botaoBuscar" type="submit">ok</button>
+    </div>
+
+    <div id="mensagemNaoEncontrada" style="display: none; color: red; text-align: center;"></div> <!-- Div para a mensagem -->
+    
+    <div class="receitas">
+
+        <div class="individual">
+            <img src="lagoaazul.jpeg" alt="">
+            <h3>Lagoa Azul</h3>
+        </div>
+
+        <div class="individual">
+            <img src="aperol.jpeg" alt="">
+            <h3>Aperol Spritz</h3>
+        </div>
+
+        <div class="individual">
+            <img src="cosmopolitan.jpeg" alt="">
+            <h3>Cosmopolitan</h3>
+        </div>
+
+        <div class="individual">
+            <img src="blood.jpeg" alt="">
+            <h3>Sangria</h3>
+        </div>
+
+        <div class="individual">
+            <img src="negroni.jpeg" alt="">
+            <h3>Negroni</h3>
+        </div>
+
+        <div class="individual">
+            <img src="sex.jpeg" alt="">
+            <h3>Sex On The Beach</h3>
+        </div>
+
+        <div class="individual">
+            <img src="pinacolada.jpeg" alt="">
+            <h3>Pina Colada</h3>
+        </div>
+
+        <div class="individual">
+            <img src="frozen.jpeg" alt="">
+            <h3>Frozen Margarita</h3>
+        </div>
+
+        <div class="individual">
+            <img src="caipi.jpeg" alt="">
+            <h3>Caipirinha</h3>
+        </div>
+
+
+    </div>
+
+
+    <!-- Modal de Receita -->
+<div id="modal" class="modal">
+    <div class="modal-conteudo">
+        <button class="fechar">Fechar</button> <!-- Botão de fechar -->
+        <h2 id="modal-titulo">Título da Receita</h2>
+        <p id="modal-descricao">Aqui vai a descrição da receita...</p>
+    </div>
+
+    </div>
+
+
+
+
+
+<script src="script2.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(228, 226, 224);
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
+    height: 100vh; /* Faz o body ocupar 100% da tela */
+    margin: 0;
+}
+
+.login {
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 50px;
+    margin: 50px;
+    text-align: center;
+    background-color: rgb(23, 30, 122);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+.campo {
+    padding: 10px;
+}
+
+.campo input{
+    border-style: none;
+    outline: none;
+    padding: 6px;
+    border-radius: 5px; 
+}
+
+button{ 
+    background-color: rgb(117, 106, 143);
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: 20px;
+    padding: 15px;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: rgb(200, 200, 255); 
+}
+
+.erro {
+    color: red;
+    font-size: 14px;
+    display: none; /* Começa escondido */
+    margin-top: 5px;
+}
+
+
+
+
+
