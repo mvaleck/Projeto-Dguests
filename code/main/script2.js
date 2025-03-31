@@ -5,12 +5,17 @@ document.getElementById("botaoLupa").addEventListener("click", function() {
     if (barra.style.opacity === "0" || barra.style.opacity === "") {
         barra.style.opacity = "1";
         barra.style.visibility = "visible";
+
+        // Usar setTimeout para garantir que o foco seja aplicado após a visibilidade ser ajustada
+        setTimeout(function() {
+            barra.querySelector('input').focus(); // Foco no campo de pesquisa
+        }, 500); // Ajuste o tempo conforme necessário, dependendo da animação
     } else {
         barra.style.opacity = "0";
         barra.style.visibility = "hidden";
     }
 
-// função que faz a tela rolar suavemente quando clica no botao LUPA
+    // função que faz a tela rolar suavemente quando clica no botão LUPA
     window.scrollTo({
         top: 0,
         behavior: 'smooth'
