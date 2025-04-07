@@ -164,6 +164,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (botaoVai) {
         botaoVai.addEventListener("click", function () {
             window.location.href = "pageDrinks.html";
+            
         });
     }
 

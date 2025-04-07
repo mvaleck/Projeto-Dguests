@@ -204,10 +204,10 @@ footer p {
 
 
 @media  screen and (max-width: 768px){
-    .botãovaiVolta {
-        color: black;
+    .botaoVaiVolta {
+        color: black !important;
     }
-
+        
     .modal-conteudo {
         background: white;
         padding: 30px;
