@@ -204,6 +204,11 @@ footer p {
 
 
 @media  screen and (max-width: 768px){
+    body {
+        overflow-x: hidden; /*impede rolagem horizontal*/
+                  
+    }
+    
     .botaoVaiVolta {
         color: black !important;
     }
