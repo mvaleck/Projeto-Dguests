@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(228, 226, 224);
+    background-color: #a87f5a;
     display: flex;
     justify-content: center; /* Centraliza na horizontal */
     align-items: center; /* Centraliza na vertical */
@@ -7,23 +7,25 @@ body{
     margin: 0;
 }
 
+
+
 .login {
-    color: rgb(255, 255, 255);
+    background-color: #faeee0;
+    color: #a87f5a;
     align-items: center;
-    padding: 50px;
-    margin: 50px;
+    padding: 65px;
     text-align: center;
-    background-color: rgb(23, 30, 122);
     display: flex;
     flex-direction: column;
     align-items:center;
     font-size: 26px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
+    width: 300px; /* <- Isso impede que a caixa se expanda */
 }
 
 .campo {
-    padding: 10px;
+    padding:2px;
 }
 
 .campo input{
@@ -34,11 +36,11 @@ body{
 }
 
 button{ 
-    background-color: rgb(117, 106, 143);
+    background-color: #a87f5a;
     cursor: pointer;
     border: none;
     border-radius: 8px;
-    font-size: 25px;
+    font-size: 20px;
     color: aliceblue;
     margin-top: 20px;
     padding: 15px;
@@ -46,16 +48,35 @@ button{
 }
 
 button:hover {
-    background-color: rgb(200, 200, 255); 
+    background-color: rgb(187, 168, 107); 
 }
 
 .erro {
-    color: red;
-    font-size: 14px;
-    display: none; /* Começa escondido */
+    color: rgb(218, 6, 6);
+    font-size: 12px;
+    min-height: 18px;
+    visibility: hidden; /* Esconde o texto, mas mantém o espaço */
     margin-top: 5px;
+    font-style: italic;
 }
 
+@media  screen and (max-width: 768px) {
+    .login {
+        padding: 30px;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #81654c;
+        margin-top: 20px;
+    }
+
+    button{
+        background-color: #a87f5a;
+    }
+    button:hover {
+        background-color: #a87f5a; 
+    }
+
+}
 
 
 
