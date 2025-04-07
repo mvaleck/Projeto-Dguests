@@ -130,6 +130,12 @@
 </footer>
 
    <script src="script2.js"></script>
+   <script>
+      if (!sessionStorage.getItem('alertaMostrado')) {
+        alert("Dica: Toque em 'Foods' para trocar para a página de bebidas e vice-versa! 🍹🍔");
+        sessionStorage.setItem('alertaMostrado', 'true');
+    }
+   </script>
 
 </body>
 </html>

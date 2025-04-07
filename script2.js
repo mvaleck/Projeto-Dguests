@@ -1,3 +1,5 @@
+
+
 // barra de pesquisa interativa
 document.getElementById("botaoLupa").addEventListener("click", function() {
     var barra = document.querySelector(".pesquisa");
