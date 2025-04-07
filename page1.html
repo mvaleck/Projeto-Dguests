@@ -130,6 +130,12 @@
 </footer>
 
    <script src="script2.js"></script>
+   <script>
+       if (!localStorage.getItem('eventoMostrado')) {
+            alert("Dica: Toque em 'Foods' para trocar para a página de bebidas e vice-versa! 🍹🍔");
+            localStorage.setItem('eventoMostrado', 'true');
+        }
+   </script>
 
 </body>
 </html>
