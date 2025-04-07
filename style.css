@@ -61,6 +61,10 @@ button:hover {
 }
 
 @media  screen and (max-width: 768px) {
+    body {
+        overflow: hidden; /* evita rolagem */
+    }
+
     .login {
         padding: 30px;
         border-radius: 8px;
