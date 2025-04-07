@@ -201,3 +201,22 @@ footer p {
     flex-direction: column;
     gap: 20px;
 }
+
+
+@media  screen and (max-width: 768px){
+    .modal-conteudo {
+        background: white;
+        padding: 30px;
+        width: 70%;
+        border-radius: 20px;
+        font-size: 15px;
+    }
+
+    .fechar{
+      
+        padding: 8px 10px;
+        font-size: 10px;
+   
+    }
+    
+}
