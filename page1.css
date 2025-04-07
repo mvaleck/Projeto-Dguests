@@ -207,7 +207,7 @@ footer p {
     .botaoVaiVolta {
         color: black !important;
     }
-        
+
     .modal-conteudo {
         background: white;
         padding: 30px;
@@ -217,10 +217,14 @@ footer p {
     }
 
     .fechar{
-      
         padding: 8px 10px;
         font-size: 10px;
    
+    }
+
+    .receitas {
+        justify-content: space-around; /* Espaçamento entre as imagens */
+        gap: 15px; /* Espaçamento entre as imagens */
     }
 
     
