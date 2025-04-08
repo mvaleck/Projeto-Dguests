@@ -95,46 +95,53 @@ input {
   transform: scale(1.1);
 }
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   body {
-    overflow: hidden; /*impede rolagem horizontal*/
+    overflow: hidden;
+    /*impede rolagem horizontal*/
 
   }
-#formulario {
-  margin: 15%;
-  padding: 3px;
-  margin-top: 180px;
-  font-size: 15px;
-  margin-bottom: 5px;
-}
 
-#formulario input {
-  width: 75%;
-  display: flex;
-  flex-direction: column;
+  #formulario {
+    margin: 15%;
+    padding: 3px;
+    margin-top: 180px;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
 
-}
+  #formulario input {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
 
-#formulario button {
-  margin-top: 15px;
-  display: flex;
+  }
 
-}
+  #formulario button {
+    margin-top: 15px;
+    display: flex;
 
-footer {
-  width: 100%;
-}
+  }
 
-html, body {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
+  footer {
+    width: 100%;
+  }
 
-body > footer {
-  margin-top: auto;
-}
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
 
+  body>footer {
+    margin-top: auto;
+  }
+
+
+  #btSalvar {
+    background-color: #a87f5a;
+  }
 
 }

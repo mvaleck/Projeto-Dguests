@@ -83,6 +83,10 @@ button:hover {
         background-color: #a87f5a; 
     }
 
+    #msg {
+        color: white;
+    }
+
 }
 
 
